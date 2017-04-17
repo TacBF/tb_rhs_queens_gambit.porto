@@ -1,0 +1,85 @@
+// RES - Taliban
+// Author: Cole
+
+gear[] =
+{
+// WEAPONS
+
+	// Rifles
+	{"rhs_weap_akm", {__ICE_gear_basicRifleRoles}},
+	{"rhs_weap_akm_gp25", {__ICE_gear_Grenadier}},
+	{"srifle_DMR_06_olive_F", {__ICE_gear_heavyRifleRoles, __ICE_gear_Marksman}},
+	{"rhs_weap_M590_8RD", {__ICE_gear_midRangeScopeRoles, __ICE_gear_Diver}},
+		
+	// Marksman/Sniper Rifles
+	{"rhs_weap_svds", {__ICE_gear_Marksman}},
+	{"rhs_weap_svdp_wd_npz", {__ICE_gear_Sniper}},
+		
+	// Machine Guns
+	{"rhs_weap_pkm", {__ICE_gear_MG}},
+		
+	// Pistols
+	{"rhs_weap_makarov_pmm", {__ICE_gear_allRoles}},
+		
+	// AT Launchers
+	{"CUP_launch_RPG18", {__ICE_gear_LightAT}},
+	{"rhs_weap_rpg7", {__ICE_gear_HeavyAT}},	
+		
+	// AA Launchers
+	{"rhs_weap_igla", {__ICE_gear_AA}}, 
+	
+	
+// ATTACHMENTS
+		
+	// Sniper/Marksman Scopes
+	{"optic_LRPS", {__ICE_gear_Sniper}},
+	{"rhs_acc_pso1m2", {__ICE_gear_Marksman}},
+	
+	// AT Scope
+	{"rhs_acc_pgo7v", {__ICE_gear_HeavyAT}},
+	
+
+// EQUIPMENT
+
+	// Grenades
+	{"rhs_mag_rgd5", {__ICE_gear_allRoles}},	
+	{"rhs_mag_fakel", {__ICE_gear_allRoles}, 1},
+	{"SmokeShell", {__ICE_gear_allRoles}},
+	{"SmokeShellYellow", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellGreen", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellRed", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellPurple", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellOrange", {__ICE_gear_allRoles}, 1},
+	{"SmokeShellBlue", {__ICE_gear_allRoles}, 1},
+	{"Chemlight_green", {__ICE_gear_allRoles}, 1},
+	{"Chemlight_red", {__ICE_gear_allRoles}, 1},
+	{"Chemlight_yellow", {__ICE_gear_allRoles}, 1},
+	{"Chemlight_blue", {__ICE_gear_allRoles}, 1},
+	{"I_IR_Grenade", {__ICE_gear_SL, __ICE_gear_Sniper, __ICE_gear_Crewman}, 1},
+		
+	// Explosives
+	{"DemoCharge_Remote_Mag", {__ICE_gear_CombatEngineer, __ICE_gear_Diver}},
+	{"CUP_IED_V1_M", {__ICE_gear_CombatEngineer}},
+		
+	// Backpacks
+	{"B_Carryall_cbr", {__ICE_gear_allRoles}, 1},
+	{"B_Carryall_khk", {__ICE_gear_allRoles}},
+	{"B_Carryall_oli", {__ICE_gear_allRoles}, 1},
+	{"B_Parachute", {__ICE_gear_allRoles}, 1},
+	{"TB_SuicideBomb_Pack", {__ICE_gear_Diver}},
+	{"TB_Hideout_Pack_East", {__ICE_gear_Inf}},
+	
+	// Flares
+	{"rhs_weap_rsp30_green", {__ICE_gear_allRoles}, 1},
+	{"rhs_weap_rsp30_red", {__ICE_gear_allRoles}},
+	{"rhs_weap_rsp30_white", {__ICE_gear_allRoles}, 1},
+		
+	// Binoculars
+	{"Binocular", {__ICE_gear_allRoles}, 1},
+	{"rhs_pdu4", {__ICE_gear_Marksman, __ICE_gear_Crewman}, 1},
+	{"NVGoggles", {__ICE_gear_allRoles}},
+		
+	// Other
+	{"ToolKit", {__ICE_gear_CombatEngineer}},
+	{"MineDetector", {__ICE_gear_CombatEngineer, __ICE_gear_Rifleman}},
+};

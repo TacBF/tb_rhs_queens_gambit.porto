@@ -1,0 +1,13 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen_Queens_Gambit.jpg"
+
+onLoadName="Queens Gambit";
+overviewPicture = "tb_loadingScreen_Queens_Gambit.jpg";
+author="Cole";
+onLoadMission="Tactical Battlefield: Search and Destroy";
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+#include "tb_supply.hpp"
+#include "tb_vehicleMags.hpp"
